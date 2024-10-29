@@ -142,7 +142,7 @@ resources:
 Finally, apply the changes to create the AWX instance in your cluster:
 
 ```sh
-kubectl apply -k .
+kubectl apply -f ./awx-demo.yml
 ```
 
 After a few seconds, you should see the operator begin to create new resources:
